@@ -108,7 +108,7 @@ app.get('/auth', async (req, res) => {
       res.json({status: '404', message: 'NOT FOUND, you can now close this tab'});
   } catch(err){
      console.log(err.message);
-     console.log(err.message);
+     
      res.status(401).json({status: '401', message: 'You didnt Clicked Yes or Confirm on microsoft page'});
     }
 });
